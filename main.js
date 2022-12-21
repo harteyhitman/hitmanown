@@ -1,11 +1,6 @@
-
-const btn1 = document.getElementById("btn1")
-
-btn1.addEventListener('click', function onclick(event){
-    console.log('clicked')
-    const backgroundColor = btn1.style.backgroundColor
-
-    if (backgroundColor === '#001334') {
-        btn1.style.backgroundColor = 'black'
-    }
-})
+function myFunction() {
+    // console.log("broker")
+    const darkmode = document.getElementById("dark-mode")
+    darkmode.style.background = "black"
+}
+myFunction()
